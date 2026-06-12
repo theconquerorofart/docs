@@ -31,7 +31,27 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Start",
+        "pages": [
+          "index",
+          "quickstart",
+          "connect-providers-and-choose-models",
+          "plans-and-access"
+        ]
+      },
+      {
+        "group": "Work In Chat",
+        "pages": [
+          "chat-from-the-side-panel",
+          "add-files-images-screenshots-and-page-context",
+          "manage-chats-and-context",
+          "use-voice-input"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
