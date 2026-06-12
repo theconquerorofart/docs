@@ -31,7 +31,18 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Start",
+        "pages": [
+          "index",
+          "quickstart",
+          "connect-providers-and-choose-models",
+          "plans-and-access"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

@@ -1,0 +1,56 @@
+---
+title: "Connect providers and choose models"
+description: "Bring your own API keys and select the model that works for your task."
+sidebarTitle: "Providers and models"
+---
+
+> ## Documentation Index
+>
+> Fetch the complete documentation index at: [https://ascentialxai-admin-mcp-phase-1-extension-docs-main-2.mintlify.app/llms.txt](https://ascentialxai-admin-mcp-phase-1-extension-docs-main-2.mintlify.app/llms.txt) Use this file to discover all available pages before exploring further.
+
+# Connect providers and choose models
+
+> Bring your own API keys and select the model that works for your task.
+
+AscentialxAI works with your own API keys from supported AI providers. You manage everything from the **Settings** \> **API Providers** panel.
+
+## Supported providers
+
+- **OpenAI**
+- **OpenRouter**
+- **Straico**
+- **Google** (Gemini models)
+
+## Add a provider key
+
+1. Open **Settings** \> **API Providers**.
+2. Select a provider from the list.
+3. Enter your API key. You can find or create keys from the provider's API dashboard — links are available next to each provider field.
+4. Click **Save**.
+
+After saving, the extension syncs your available models automatically.
+
+## Delete a provider key
+
+Open **Settings** \> **API Providers**, select the provider, and choose **Delete** to remove the saved key.
+
+## Sync models
+
+After adding or updating a key, models sync automatically. You can also trigger a manual refresh from the model selector.
+
+## Select a model
+
+The model selector is available in the chat composer toolbar and the attachment menu.
+
+- **Search** — Type to filter models by name.
+- **Filter by provider** — Narrow the list to a specific provider.
+- **Favorites** — Star models for quick access.
+- **Refresh** — Re-sync the model list if you've added new keys.
+
+## No model configured
+
+If you haven't connected a provider or no models are available, the composer shows a prompt to configure one. Open **Settings** \> **API Providers** to get started.
+
+## Vision support
+
+Some models support vision — they can analyze images, screenshots, and page content. If you plan to use image attachments or `/vision`, make sure your selected provider and model support vision inputs.
