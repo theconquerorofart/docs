@@ -50,6 +50,40 @@
           "manage-chats-and-context",
           "use-voice-input"
         ]
+      },
+      {
+        "group": "Use Skills",
+        "pages": [
+          "slash-commands",
+          "browser-tasks-and-agent-focus"
+        ]
+      },
+      {
+        "group": "Build Reusable Workflows",
+        "pages": [
+          "prompt-library",
+          "automation-hub",
+          "flow-proposals",
+          "agent-triggered-flows",
+          "scheduled-jobs-with-scheduler"
+        ]
+      },
+      {
+        "group": "Extend The Assistant",
+        "pages": [
+          "forge-custom-skills",
+          "tune-and-prune-skills",
+          "tool-pairing"
+        ]
+      },
+      {
+        "group": "Configure And Troubleshoot",
+        "pages": [
+          "system-prompt",
+          "account-sign-out-and-factory-reset",
+          "privacy-and-local-storage",
+          "troubleshooting"
+        ]
       }
     ]
   },

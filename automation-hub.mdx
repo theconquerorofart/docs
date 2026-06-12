@@ -1,0 +1,46 @@
+---
+title: "Automation Hub"
+sidebarTitle: "Automation Hub"
+description: "Build and run multi-step flows."
+---
+
+The Automation Hub lets you build, run, and manage multi-step automation flows.
+
+## Open Automation Hub
+
+Select the **Automation** tab at the bottom of the side panel.
+
+## Create a new flow
+
+1. Click **New Flow**.
+2. Choose a **trigger**:
+   - **Manual Execution** — Run the flow on demand.
+   - **Agent Execution** — Let the assistant launch the flow later.
+3. Enter a flow **name** and select a **default model**.
+4. Add steps to the flow. Each step can be an **AI Prompt** instruction, a saved **prompt card**, or a **registered tool** step.
+5. Use **Smart Model Switch** to assign a different model to individual steps.
+6. Use `@stepN` references to reuse the output of a previous step (for example, `@step1`).
+7. **Review** and **Save** your flow.
+
+## Run a flow
+
+From the flow card, select **Run Now** to execute the flow manually. The assistant runs each step in sequence.
+
+## Manage flows
+
+Each flow has a card with these controls:
+
+- **Run Now** — Execute the flow immediately.
+- **Edit** — Modify the flow configuration.
+- **Enable / Disable** — Turn the flow on or off.
+- **Delete** — Remove the flow.
+- **Preview** — See the flow steps without running them.
+
+## Execution History
+
+Open the **Execution History** panel to view past runs. For each execution you can:
+
+- **View** the results.
+- **Copy** the output.
+- **Export** the results.
+- **Delete** the history entry.

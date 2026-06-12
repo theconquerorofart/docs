@@ -1,0 +1,26 @@
+---
+title: "Scheduled jobs with /scheduler"
+sidebarTitle: "Scheduled jobs"
+description: "Run automation flows on a schedule using the slash command."
+---
+
+You can schedule automation flows to run at specific times or intervals using the `/scheduler` slash command.
+
+## Create a scheduled job
+
+1. Type `/scheduler` in the composer and describe when you want the flow to run.
+2. The assistant creates a scheduled job backed by Chrome alarms.
+
+Scheduling supports intervals, specific times, or run-at values.
+
+## List scheduled jobs
+
+Type `/scheduler` and ask to see all active scheduled jobs and their next run times.
+
+## Delete a scheduled job
+
+Type `/scheduler` and ask to delete a specific job.
+
+## Requirements
+
+The flow must already exist in Automation Hub before you schedule it. Scheduling is available through the slash command, not through the visual flow builder's trigger options.
