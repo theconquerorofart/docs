@@ -57,6 +57,16 @@
           "slash-commands",
           "browser-tasks-and-agent-focus"
         ]
+      },
+      {
+        "group": "Build Reusable Workflows",
+        "pages": [
+          "prompt-library",
+          "automation-hub",
+          "flow-proposals",
+          "agent-triggered-flows",
+          "scheduled-jobs-with-scheduler"
+        ]
       }
     ]
   },
