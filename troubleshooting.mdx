@@ -1,0 +1,42 @@
+---
+title: "Troubleshooting"
+sidebarTitle: "Troubleshooting"
+description: "Common issues and how to resolve them."
+---
+
+## No model or provider configured
+
+The composer shows a prompt to configure a provider. Open **Settings** \> **API Providers** and add a key, then select a model from the model selector.
+
+## Provider key issues
+
+- **Key not saved** — Make sure you clicked **Save** after entering your key.
+- **Key deleted** — Re-enter and save the key.
+- **Models not synced** — After saving a key, models sync automatically. Use the refresh button in the model selector to trigger a manual sync.
+
+## Vision not working
+
+Not all models support vision. If you attach an image or use `/vision` and get an error, try switching to a model that supports vision inputs.
+
+## File upload fails
+
+- Check that the file is under 20 MB.
+- Make sure the file type is supported (txt, md, json, csv, pdf, png, jpg, and others listed in [Add context](/add-files-images-screenshots-and-page-context)).
+- If the file is too large or unsupported, the extension shows a message explaining the issue.
+
+## Microphone not working
+
+- The extension needs microphone permission to use voice input. If the permission prompt was denied, update your Chrome site permissions for the extension.
+- Browser speech recognition must be available in your browser.
+
+## Locked features or paywall
+
+If you see a paywall, you can upgrade to Pro or enter a license key to unlock the feature. See [Plans and access](/plans-and-access) for details.
+
+## Session or vault expired
+
+If you're asked to sign in again, your session has expired. Sign in with your account to restore access.
+
+## Browser page unavailable
+
+The assistant may not be able to access certain Chrome system pages (like `chrome://` URLs) or pages where the extension doesn't have tab access. Try navigating to a standard web page.

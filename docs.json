@@ -75,6 +75,15 @@
           "tune-and-prune-skills",
           "tool-pairing"
         ]
+      },
+      {
+        "group": "Configure And Troubleshoot",
+        "pages": [
+          "system-prompt",
+          "account-sign-out-and-factory-reset",
+          "privacy-and-local-storage",
+          "troubleshooting"
+        ]
       }
     ]
   },
