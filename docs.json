@@ -91,7 +91,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/wordmark_dark.svg",
+    "light": "/images/wordmark_dark.svg",
     "dark": "/logo/wordmark_dark.svg"
   },
   "navbar": {
