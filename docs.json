@@ -50,6 +50,13 @@
           "manage-chats-and-context",
           "use-voice-input"
         ]
+      },
+      {
+        "group": "Use Skills",
+        "pages": [
+          "slash-commands",
+          "browser-tasks-and-agent-focus"
+        ]
       }
     ]
   },
