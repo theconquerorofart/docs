@@ -1,0 +1,27 @@
+---
+title: "Tool Pairing"
+sidebarTitle: "Tool Pairing"
+description: "Pair secrets and credentials with forged tools that require them."
+---
+
+Some forged skills require a secret or external credential to work. Tool Pairing lets you connect those credentials.
+
+## When you need Tool Pairing
+
+When you forge a skill with `/forge` and mark it as requiring a secret, the skill produces a connectivity key. You enter the corresponding credential in **Settings** \> **Tool Pairing**.
+
+## Add a credential
+
+1. Open **Settings** \> **Tool Pairing**.
+2. Find the connectivity key for your forged skill.
+3. Enter the secret or API key the skill needs to run.
+
+Once paired, the skill uses the credential when the assistant calls it.
+
+## Remove a credential
+
+Open **Settings** \> **Tool Pairing** and delete the paired entry. The skill will stop working if it requires that credential.
+
+## Requirements
+
+Tool Pairing requires Pro access.

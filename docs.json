@@ -67,6 +67,14 @@
           "agent-triggered-flows",
           "scheduled-jobs-with-scheduler"
         ]
+      },
+      {
+        "group": "Extend The Assistant",
+        "pages": [
+          "forge-custom-skills",
+          "tune-and-prune-skills",
+          "tool-pairing"
+        ]
       }
     ]
   },
