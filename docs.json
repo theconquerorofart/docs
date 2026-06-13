@@ -63,7 +63,17 @@
       {
         "group": "Skills",
         "pages": [
-          "browser-tasks-and-agent-focus"
+          "memory-skill",
+          "vision-skill",
+          "scraper-skill",
+          "document-skill",
+          "browser-skill",
+          "flow-skill",
+          "scheduler-skill",
+          "trigger-skill",
+          "forge-skill",
+          "tune-skill",
+          "prune-skill"
         ]
       },
       {
