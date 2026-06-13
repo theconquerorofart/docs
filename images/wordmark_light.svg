@@ -32,7 +32,7 @@
     <text x="82" y="220" fill="none" stroke="url(#brandGradient)" stroke-width="18" stroke-linejoin="round" clip-path="url(#ascentialInsetClip)">
       Ascential
     </text>
-    <text x="82" y="220" fill="#FFFFFF">
+    <text x="82" y="220" fill="#000000">
       Ascential
     </text>
 
