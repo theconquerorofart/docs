@@ -55,9 +55,14 @@
         ]
       },
       {
-        "group": "Use Skills",
+        "group": "Slash Commands",
         "pages": [
-          "slash-commands",
+          "using-slash-commands"
+        ]
+      },
+      {
+        "group": "Skills",
+        "pages": [
           "browser-tasks-and-agent-focus"
         ]
       },
